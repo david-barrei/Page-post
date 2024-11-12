@@ -1,0 +1,22 @@
+* {
+    border: 1px dashed blue; 
+  
+  }
+
+nav{
+    display: flex;
+    background-color: azure;
+    justify-content: flex-end;
+    
+}
+
+a{
+    margin: 10px;
+}
+.patas{
+    
+  flex-wrap: wrap;
+    
+}
+
+
