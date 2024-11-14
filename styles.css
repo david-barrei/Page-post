@@ -5,11 +5,14 @@
 
 nav{
     display: flex;
-    background-color: azure;
+    background-color: rgb(14, 14, 14);
     justify-content: flex-end;
     
 }
 
+body{
+    background-color: rgb(80, 192, 225);
+}
 
 a{
     margin: 10px;
@@ -52,6 +55,13 @@ button{
     color: rgb(23, 26, 107);
     border-radius: 5px;
 }
+p{
+    display: table;
+    display: table-cell;
+    font-size: large;
+    text-align: center;
+
+}
 
 .cards{
     display: flex;
@@ -66,5 +76,28 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
 
+.marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium-img {
+    display: flex;
+    height: 150px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.medium-img img{
+
+    display: flex;
+    height: 150px;
+    width: auto;
+    
 }
